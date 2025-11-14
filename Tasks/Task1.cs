@@ -2,7 +2,7 @@
 
 public class Task1
 {
-    public static int ToFindMin(int[] mass)
+    public static int GetMin(int[] mass)
     {
         if (mass == null)  throw new ArgumentNullException("mass" + " " + "массив не должен равняться null");
         

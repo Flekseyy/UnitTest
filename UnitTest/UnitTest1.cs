@@ -1,6 +1,6 @@
 
 using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Autotest_contr;
+using Tasks;
 
 
 namespace UnitTest1;
@@ -16,10 +16,10 @@ public class TestOfTask1
         int[] testMas3 = { 3 };
         int[] testMas4 = {-1, -2, -3};
         
-        var result1 = Task1.ToFindMin(testMas1);
-        var result2 = Task1.ToFindMin(testMas2);
-        var result3 = Task1.ToFindMin(testMas3);
-        var result4 = Task1.ToFindMin(testMas4);
+        var result1 = Task1.GetMin(testMas1);
+        var result2 = Task1.GetMin(testMas2);
+        var result3 = Task1.GetMin(testMas3);
+        var result4 = Task1.GetMin(testMas4);
 
         Assert.That(result1, Is.EqualTo(1));
         Assert.That(result2, Is.EqualTo(0));
@@ -30,13 +30,13 @@ public class TestOfTask1
     public void CheckingErrorOfNull()
     {
         int[] testMas = null;
-        Assert.Throws<ArgumentNullException>(() => Task1.ToFindMin(testMas));
+        Assert.Throws<ArgumentNullException>(() => Task1.GetMin(testMas));
     }
     [Test]
     public void CheckingErrorOfEmptyString()
     {
         int[] emptyMas = new int[0];
-        Assert.Throws<ArgumentException>(() => Task1.ToFindMin(emptyMas));
+        Assert.Throws<ArgumentException>(() => Task1.GetMin(emptyMas));
     }
 }
 

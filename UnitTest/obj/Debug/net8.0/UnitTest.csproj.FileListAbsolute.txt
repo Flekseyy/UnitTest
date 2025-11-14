@@ -103,3 +103,4 @@ C:\Users\Admin\Desktop\UnitTest1\UnitTest\obj\Debug\net8.0\refint\UnitTest.dll
 C:\Users\Admin\Desktop\UnitTest1\UnitTest\obj\Debug\net8.0\UnitTest.pdb
 C:\Users\Admin\Desktop\UnitTest1\UnitTest\obj\Debug\net8.0\UnitTest.genruntimeconfig.cache
 C:\Users\Admin\Desktop\UnitTest1\UnitTest\obj\Debug\net8.0\ref\UnitTest.dll
+C:\Users\Admin\Desktop\UnitTest1\UnitTest\obj\Debug\net8.0\UnitTest.sourcelink.json
