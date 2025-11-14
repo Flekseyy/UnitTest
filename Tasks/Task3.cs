@@ -1,5 +1,4 @@
-﻿namespace Autotest_contr;
-
+﻿namespace Tasks;
 public class Task3
 {
     public static char IsLast3Simb(string s)

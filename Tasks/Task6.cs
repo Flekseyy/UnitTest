@@ -1,5 +1,4 @@
-﻿namespace Autotest_contr;
-
+﻿namespace Tasks;
 public class Task6
 {
     public static bool TryParse(string str, out int number)

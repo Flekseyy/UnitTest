@@ -9,7 +9,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Ответ #1" + " " + IsMin([3, 15, 1, 14]));
+        Console.WriteLine("Ответ #1" + " " + ToFindMin([3, 15, 1, 14]));
         Console.WriteLine("Ответ #2" + " " + IsCountStr("BananaRama"));
         Console.WriteLine("Ответ #3" + " " + IsLast3Simb("ABCDEFG"));
         Console.WriteLine("Ответ #4" + " " + IsPalindrome(0));

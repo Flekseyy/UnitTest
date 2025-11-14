@@ -1,4 +1,4 @@
-﻿namespace Autotest_contr;
+﻿namespace Tasks;
 
 public class Task4
 {
